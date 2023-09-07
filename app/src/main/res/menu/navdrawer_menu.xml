@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@android:drawable/btn_star"
+        android:title="@string/homeFragment" />
+    <item
+        android:id="@+id/conversionFragment"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="@string/conversionFragment" />
+    <item
+        android:id="@+id/quizFragment"
+        android:icon="?android:attr/actionModeFindDrawable"
+        android:title="@string/quizFragment" />
+    <item
+        android:id="@+id/tutorialFragment"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/tutorialFragment" />
+    <item
+        android:id="@+id/aboutFragment"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/aboutFragment" />
+</menu>
